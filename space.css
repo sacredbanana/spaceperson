@@ -1,0 +1,95 @@
+body {
+	margin:0;
+	background: #111a22;
+	color: #FFFEE0;
+	font-family: Lucida Console;
+}
+
+canvas {
+	
+	position: absolute;
+	top: 35%;
+	right: 5%;
+	left: 5%;
+	display: block; 
+	background: #111a22;
+	border: 1px solid white;
+  
+}
+
+#gameSection {
+	
+	padding-top: 200px
+	
+	
+}
+
+#indexBody {
+
+	margin: auto;
+	width: 50%;
+
+}
+
+#heading {
+	
+	top: 0;
+	font-size: 80px;
+	padding-left: 120px;
+	
+}
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding: 20px 60px;
+	font-size: 20px;
+	color: #69FF7D;
+	display: inline-block;
+	word-wrap: normal;
+}
+
+.nav a:link {
+    color: #69FF7D;
+	text-decoration: none;
+}
+
+.nav a:visited {
+    color: #69FF7D;;
+}
+
+.nav a:hover {
+    color: #69FF7D;;
+}
+
+.nav a:active {
+    color: #69FF7D;;
+}
+
+ul.controls {
+	list-style-image: url('chevron.png');
+	font-size: 30px;
+	
+}
+
+ul.aboutPoints {
+	list-style-image: url('chevron.png');
+	font-size: 20px;
+	
+}
+
+#controlHead {
+	
+	font-size: 20px;
+}
+
